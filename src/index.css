@@ -72,6 +72,11 @@ button {
   border-radius: 5px;
   cursor: pointer;
 }
+button:disabled {
+  cursor: not-allowed;
+  background-color: #ccc;
+  border-color: #ccc;
+}
 
 button:hover,
 button:active {
